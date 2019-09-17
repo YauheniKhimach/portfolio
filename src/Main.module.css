@@ -1,0 +1,30 @@
+.main {
+  height: 100vh;
+  background-color: #1f1f20;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  /* border: 1px solid; */
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+}
+.greeting:nth-child(1) {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.photo {
+  width: 300px;
+  height: 400px;
+  background-color: #ffb08c;
+}
