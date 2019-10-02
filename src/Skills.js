@@ -5,7 +5,11 @@ function Skills() {
     return (
         <div className={styles.skills}>
             <div className={styles.container}>
-                <span className={styles.blockTitle}>Мои скиллы</span>
+                <div className={styles.headerTitle}>
+                    <h2 className={styles.headerTitle}>Мои скиллы</h2>
+                    <div className={styles.line}></div>
+                </div>
+
                 <div className={styles.skillWrapper}>
                     <div className={styles.skill}>
                         <div className={styles.icon}>
